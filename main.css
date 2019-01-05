@@ -131,12 +131,12 @@ ul {
 }
 .alaska_angle {
  display:block;
- height:500px;
+ height:100%;
  width:100%;
  background-repeat:no-repeat;
  background-image:url(alaska_angle.png);
  background-position:right;
- /*margin:-100px 0 32px 0*/
+
 }
 .notebook {
  margin:-250px 0 0 0
@@ -144,7 +144,7 @@ ul {
 .sailboat {
  display:block;
  height:320px;
- width:200px;
+ width:100%;
  position:relative;
  right:-300px;
  top:-100px;
@@ -353,44 +353,13 @@ video {
  font-family:"ArgentCF-DemiBold";
  font-size:1.4em
 }
-#fourohfour.article h1 {
- margin-bottom:0
-}
-.article .footer {
- margin-top:100px;
- background:#F1F0EC;
- padding-top:50px
-}
-.article .footer a {
- font-family:"Avenir-Light"
-}
-.article .footer h3 {
- font-family:"ArgentCF-DemiBold";
- font-size:1.4em
-}
-.article .footer a:hover {
- color:#134db6
-}
-.article .footer h4 {
- font-family:"ArgentCF-DemiBold";
- font-size:1.4em
-}
-.article .footer .label {
- opacity:1!important;
- color:#134db6;
- font-size:0.75em;
- letter-spacing:0.2em;
- text-transform:uppercase;
- font-family:"avenir-heavy"
-}
 .topbanner {
  display:block;
- height:500px;
+ height:100%px;
  width:100%;
  background-repeat:no-repeat;
  background-image:url(alaska_angle.png);
  background-position:right;
- margin:-100px 0 32px 0
 }
 @media screen and (max-width:768px) {
  .mobile-header-fix {
