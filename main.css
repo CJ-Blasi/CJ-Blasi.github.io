@@ -508,9 +508,9 @@ video {
 }
 .topbanner {
  background-image:url("alaska_angle.png");
- width:100%;
+ /* width:100%;
  height:100%;
- display:block;
+ display:block; */
  position:top right;
  padding: 500px;
 }
@@ -541,7 +541,7 @@ video {
  .alaska_angle {
   background-size:cover;
   height:150px;
-  margin:-50px 0 20px 0
+  /*margin:-50px 0 20px 0 */
  }
  .chat-bubble {
   display:block;
@@ -565,17 +565,6 @@ video {
  }
  .syllabus-container .right {
   margin:0
- }
- .product-brand-container {
-  padding:100px 0 0 0;
-  margin:100px auto 0 auto
- }
- .product-brand-container .brand-chat {
-  position:relative
- }
- .mobile-brand-container {
-  background-image:none;
-  padding:100px 0 100px 0
  }
  .notebook {
   margin:0
