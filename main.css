@@ -137,7 +137,7 @@ ul {
  height: 50px; 
  width: 100%; 
  position:relative;
- padding-top: 20px;
+ padding-top: 40px;
 }
 .sights_icon {
  background: url(sights_icon.jpg) no-repeat left; 
@@ -145,7 +145,7 @@ ul {
  height: 50px; 
  width: 100%; 
  position:relative;
- padding-top: 20px;
+ padding-top: 40px;
 }
 .poll_icon {
  background: url(poll_icon.svg) no-repeat left; 
@@ -153,7 +153,7 @@ ul {
  height: 50px; 
  width: 100%; 
  position:relative;
- padding-top: 20px;
+ padding-top: 40px;
 }
 .full_map {
  display:block;
