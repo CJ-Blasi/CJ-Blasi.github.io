@@ -131,7 +131,7 @@ ul {
 }
 .alaska_angle {
  display:block;
- height:100%;
+ height:500px;
  width:100%;
  background-repeat:no-repeat;
  background-image:url(alaska_angle.png);
@@ -176,10 +176,11 @@ ul {
  opacity:0.5
 }
 .full_map {
- background-image:url(fullmap.png);
  display:block;
- height:100%;
+ background-image:url(fullmap.png);
+ height:320px;
  width:100%;
+ position:relative;
  background-position:center;
  background-repeat:no-repeat
 }
@@ -355,8 +356,9 @@ video {
 }
 .topbanner {
  display:block;
- height:100%px;
+ height:100%;
  width:100%;
+ position:relative;
  background-repeat:no-repeat;
  background-image:url(alaska_angle.png);
  background-position:right;
