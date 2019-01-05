@@ -63,6 +63,10 @@ ul {
  padding-left:30px;
  box-sizing:border-box
 }
+.page-title {
+ padding 10;
+ margin 50;
+}
 .page-title h3 {
  padding:0;
  margin:0;
@@ -169,7 +173,7 @@ ul {
 }
 .full_map {
  display:block;
- background-size: cover;
+ background-size:cover;
  position:relative;
  background-repeat:no-repeat;
  background-image:url(fullmap.png);
