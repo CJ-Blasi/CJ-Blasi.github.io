@@ -57,10 +57,10 @@ ul {
  vertical-align:top;
  width:50%;
  display:inline-block;
- padding-right:200px;
- padding-left:30px;
  box-sizing:border-box;
- left: 60%;
+ padding-left:30px;
+ right: 60%;
+ 
 }
 .page-title {
  padding: 10;
