@@ -183,9 +183,6 @@ ul {
  padding:0;
  font-size:2em
 }
-#homepage .page-title h1 {
- font-family:"ArgentCF-Bold"
-}
 #homepage .page-title h2 {
  font-weight:200
 }
@@ -202,7 +199,7 @@ ul {
 }
 #homepage .resume .date {
  font-size:0.9em;
- color:rgba(34,36,39,0.5)
+ color:#FFB612
 }
 #homepage .resume .company {
  font-size:0.9em
