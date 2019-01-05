@@ -12,7 +12,6 @@ h2 { font-size:42px; line-height:1.2em; padding:20px 0; font-family:"Roboto"; fo
 h3 { font-family:"Righteous"; font-weight:300; margin:30px 0 20px 0 }
 h4 { margin:30px 0 20px 0; font-family:"Roboto" }
 p { color: #FFB612; font-size:1em; line-height:1.75em }
-p.second-paragraph { margin-top:70px }
 
 a {
  -webkit-transition:all 0.2s;
@@ -76,57 +75,44 @@ ul {
  margin-right:10px;
  font-weight:800
 }
-.page-title h3.role {
- font-weight:300;
- margin:0
-}
-#homepage .label {
+.label {
  color:#134db6;
- font-size:0.75em;
+ font-size:1.75em;
  letter-spacing:0.2em;
  text-transform:uppercase;
  font-family:"avenir-heavy"
 }
-#homepage h3 {
- font-size:1.8em;
- font-family:"ArgentCF-DemiBold"
-}
-#homepage h4 {
- font-size:1.4em;
- font-family:"ArgentCF-DemiBold"
-}
 #homepage a:hover,#homepage h3 a:hover,#homepage h4 a:hover {
  color:#FFB612
 }
-#homepage .page-title {
+.page-title {
  margin:80px 0 32px 0
 }
-#homepage .page-title h2 {
+.page-title h2 {
  font-weight:200
 }
-#homepage .resume {
+.subsection {
  margin-top:20px
 }
-#homepage .resume li {
+.subsection li {
  margin:0 0 20px 0
 }
-#homepage .resume .role {
- font-size:0.9em;
- font-family:"Avenir-Heavy";
+.subsection .subtext {
+ font-size:0.5em;
+ font-family:"Roboto";
  margin:4px 0
 }
-#homepage .resume .date {
- font-size:0.9em;
- color:#FFB612
+.subsection .maintext {
+ font-size:1.0em;
+ color:#0F204B
 }
-#homepage .resume .company {
+.subsection .link {
  font-size:0.9em
 }
-#homepage .resume .skill {
+.subsection .skill {
  font-size:0.9em;
  font-family:"Roboto"
 }
-
 .alaska_angle {
  display:block;
  height:500px;
@@ -134,9 +120,6 @@ ul {
  background-repeat:no-repeat;
  background-image:url(alaska_angle.png);
  background-position:right;
-}
-.notebook {
- margin:-250px 0 0 0
 }
 .icon1 {
  display:block;
@@ -148,29 +131,6 @@ ul {
  background-repeat:no-repeat;
  background-image:url(icon1.png);
  background-position:center
-}
-.social ul {
- margin-left:-10px
-}
-.social li {
- display:inline-block
-}
-.social li:hover {
- opacity:1;
- cursor:pointer;
- cursor:hand
-}
-.dribbble a {
- background-image:url(images/dribbble.svg);
- display:block;
- height:20px;
- width:20px;
- padding:10px;
- background-position:center;
- background-repeat:no-repeat
-}
-.dribbble a:hover {
- opacity:0.5
 }
 .full_map {
  display:block;
@@ -223,8 +183,6 @@ ul {
 }
 video {
  margin:20px 0
-}
- width:100%
 }
 .footer h3 a {
  font-family:"ArgentCF-DemiBold";
