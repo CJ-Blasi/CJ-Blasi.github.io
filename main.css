@@ -54,6 +54,7 @@ ul {
  width:50%;
  display:inline-block;
  padding-right:30px;
+ padding-left:50px;
  box-sizing:border-box
 }
 .column .right {
@@ -234,7 +235,7 @@ video {
  font-size:1.4em
 }
 .topbanner {
- background-image:url(icon1.png);
+ background-image:url(alaska_angle.png);
  background-size: 100% 100%;
  position:relative;
  background-repeat:no-repeat;
