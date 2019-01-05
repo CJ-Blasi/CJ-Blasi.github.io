@@ -134,7 +134,14 @@ ul {
 .icon2 {
  background: url(icon2.png) no-repeat left; 
  background-size: contain; 
- height: 200px; 
+ height: 50px; 
+ width: 100%; 
+ position:relative;
+}
+.poll_icon {
+ background: url(poll_icon.png) no-repeat left; 
+ background-size: contain; 
+ height: 100px; 
  width: 100%; 
  position:relative;
 }
