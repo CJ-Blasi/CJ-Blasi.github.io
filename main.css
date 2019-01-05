@@ -139,11 +139,12 @@ ul {
  position:relative;
 }
 .poll_icon {
- background: url(poll_icon.png) no-repeat left; 
+ background: url(poll_icon.svg) no-repeat left; 
  background-size: contain; 
  height: 100px; 
  width: 100%; 
  position:relative;
+ padding-top: 20px;
 }
 .full_map {
  display:block;
