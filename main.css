@@ -1,5 +1,4 @@
 body {
- font-family:"Righteous",sans-serif;
  padding:0;
  background:#FFF;
  color:#0F204B;
@@ -88,31 +87,32 @@ ul {
 .page-title h2 {
  font-weight:200
 }
-.subsection {
+#homepage.subsection {
  margin-top:20px
 }
-.subsection li {
+#homepage.subsection li {
  margin:0 0 20px 0
 }
-.subsection .subtext {
+#homepage.subsection .subtext {
  font-size:12px
  font-family:"Roboto";
  margin:4px 0
 }
-.subsection .maintext {
+#homepage.subsection .maintext {
  font-size:16px
  color:#0F204B
 }
-.subsection .link {
+#homepage.subsection .link {
  font-size: 16px;
  font-family:"Roboto"
  position: center;
  left: 25%;
 }
-.subsection .skill {
+#homepage.subsection .skill {
  font-family:"Roboto"
  position: center;
  left: 25%;
+ color: rgba(34,36,39,0.5);
 }
 .alaska_angle {
  display:block;
