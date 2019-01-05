@@ -94,13 +94,15 @@ ul {
  margin:0 0 20px 0
 }
 #homepage.subsection .subtext {
- font-size:12px
+ font-size:12px;
  font-family:"Roboto";
  margin:4px 0
 }
 #homepage.subsection .maintext {
+ font-family: "Roboto";
  font-size:16px
  color:#0F204B
+ font-style: bold;
 }
 #homepage.subsection .link {
  font-size: 16px;
