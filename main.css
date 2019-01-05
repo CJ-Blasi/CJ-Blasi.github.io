@@ -47,8 +47,11 @@ ul {
  width:50%;
  display:inline-block;
  padding-right:30px;
- padding-left:50px;
+ padding-left:100px;
  box-sizing:border-box
+}
+.column .left p {
+ size: 24px;
 }
 .column .right {
  vertical-align:top;
