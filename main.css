@@ -109,7 +109,8 @@ ul {
 .subsection .skill {
  font-size:0.9em;
  font-family:"Roboto"
- padding-left: 200px;
+ position: center;
+ left: 50%;
 }
 .alaska_angle {
  display:block;
