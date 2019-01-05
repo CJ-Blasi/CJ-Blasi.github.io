@@ -74,10 +74,10 @@ ul {
  color: #FFB612;
 }
 .label {
- color:#134db6;
+ color:#0F204B;
  font-size:1.75em;
  text-transform:uppercase;
- font-family:"Roboto";
+ font-family:"Righteous";
 }
 #homepage a:hover,#homepage h3 a:hover,#homepage h4 a:hover {
  color:#FFB612
@@ -95,15 +95,16 @@ ul {
  margin:0 0 20px 0
 }
 .subsection .subtext {
- font-size:10px;
+ font-size:14px;
  font-family:"Roboto";
  margin:4px 0;
  left: 25%;
  position: relative;
+ color: #a2a2a2;
 }
 .subsection .maintext {
  font-family: "Roboto";
- font-size:16px
+ font-size:20px
  color:#0F204B
  font-style: bold;
  left: 25%;
@@ -130,16 +131,12 @@ ul {
  background-image:url(alaska_angle.png);
  background-position:right;
 }
-.icon1 {
- display:block;
- height:320px;
- width:100%;
+.icon2 {
+ background: url(icon2.png) no-repeat left; 
+ background-size: contain; 
+ height: 200px; 
+ width: 100%; 
  position:relative;
- right:-300px;
- top:-100px;
- background-repeat:no-repeat;
- background-image:url(icon1.png);
- background-position:center
 }
 .full_map {
  display:block;
