@@ -13,6 +13,7 @@ h3 { font-family:"Righteous"; font-weight:300; margin:30px 0 20px 0 }
 h4 { margin:30px 0 20px 0; font-family:"Roboto" }
 p { color: #FFB612; font-size:1em; line-height:1.75em }
 p.second-paragraph { margin-top:70px }
+
 a {
  -webkit-transition:all 0.2s;
  transition:all 0.2s;
@@ -120,6 +121,7 @@ ul {
  font-size:0.9em;
  font-family:"Roboto"
 }
+
 .alaska_angle {
  display:block;
  height:500px;
@@ -127,7 +129,6 @@ ul {
  background-repeat:no-repeat;
  background-image:url(alaska_angle.png);
  background-position:right;
-
 }
 .notebook {
  margin:-250px 0 0 0
@@ -168,12 +169,11 @@ ul {
 }
 .full_map {
  display:block;
- height:500px;
- width:100%;
+ background-size: cover;
  position:relative;
  background-repeat:no-repeat;
  background-image:url(fullmap.png);
- background-position:right
+ background-position:center
 }
 .footer {
  margin-top:-60px
@@ -230,12 +230,10 @@ video {
  font-size:1.4em
 }
 .topbanner {
- display:block;
- height:320px;
- width:100%;
+ background-image:url(icon1.png);
+ background-size: 100% 100%;
  position:relative;
  background-repeat:no-repeat;
- background-image:url(icon1.png);
  background-position:right;
 }
 @media screen and (max-width:768px) {
