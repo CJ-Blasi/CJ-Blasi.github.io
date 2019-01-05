@@ -95,22 +95,24 @@ ul {
  margin:0 0 20px 0
 }
 .subsection .subtext {
- font-size:0.5em;
+ font-size:12px
  font-family:"Roboto";
  margin:4px 0
 }
 .subsection .maintext {
- font-size:1.0em;
+ font-size:16px
  color:#0F204B
 }
 .subsection .link {
- font-size:0.9em
-}
-.subsection .skill {
- font-size:0.9em;
+ font-size: 16px;
  font-family:"Roboto"
  position: center;
- left: 50%;
+ left: 25%;
+}
+.subsection .skill {
+ font-family:"Roboto"
+ position: center;
+ left: 25%;
 }
 .alaska_angle {
  display:block;
@@ -142,24 +144,6 @@ ul {
 .footer {
  margin-top:-60px
 }
-.article .page-title {
- margin-top:32px
-}
-.article h1 {
- margin:64px 0
-}
-.article h2 {
- font-family:"ArgentCF-DemiBold";
- font-size:2.2em
-}
-.article p.caption {
- font-size:0.9em;
- color:rgba(34,36,39,0.5)
-}
-.article .workflow-detail {
- margin-top:-60px
-}
-.article a {
  font-family:"Avenir-Heavy"
 }
 .small img {
