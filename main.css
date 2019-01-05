@@ -219,7 +219,6 @@ ul {
  display:block;
  height:200px;
  width:200px;
- padding:100px;
  background-position:center;
  background-repeat:no-repeat
 }
@@ -507,15 +506,13 @@ video {
 #side-projects h1 {
  font-size:2.6em
 }
-.seagulls {
+.topbanner {
  background-image:url("alaska_angle.png");
  width:100%;
  height:100%;
  display:block;
  position:top right;
- z-index:-1;
- margin-top:-50px;
- margin-left:100px
+ padding: 500px;
 }
 @media screen and (max-width:768px) {
  .mobile-header-fix {
