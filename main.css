@@ -176,7 +176,7 @@ ul {
  background-size:cover;
  position:relative;
  background-repeat:no-repeat;
- background-image:url(fullmap.png);
+ background-image:url(fullmap.PNG);
  background-position:center
 }
 .footer {
