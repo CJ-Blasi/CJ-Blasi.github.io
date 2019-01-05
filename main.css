@@ -79,9 +79,8 @@ ul {
 .label {
  color:#134db6;
  font-size:1.75em;
- letter-spacing:0.2em;
  text-transform:uppercase;
- font-family:"avenir-heavy"
+ font-family:"Roboto";
 }
 #homepage a:hover,#homepage h3 a:hover,#homepage h4 a:hover {
  color:#FFB612
