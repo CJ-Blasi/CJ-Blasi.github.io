@@ -59,6 +59,7 @@ ul {
  display:inline-block;
  padding-left:30px;
  box-sizing:border-box
+ position: left;
 }
 .page-title {
  padding: 10;
