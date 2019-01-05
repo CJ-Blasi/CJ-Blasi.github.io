@@ -21,7 +21,7 @@ a {
  text-decoration:none
 }
 a:hover {
- color:#FFF
+ color:#FFB612
 }
 ul {
  list-style-type:none;
@@ -96,7 +96,7 @@ ul {
  font-family:"ArgentCF-DemiBold"
 }
 #homepage a:hover,#homepage h3 a:hover,#homepage h4 a:hover {
- color:#134db6
+ color:#FFB612
 }
 #homepage .page-title {
  margin:80px 0 32px 0
