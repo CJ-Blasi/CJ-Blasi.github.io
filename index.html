@@ -17,17 +17,19 @@
 <style>
 	div.gallery { padding-top: 100px; margin: 50px; float: left; width: 180px; }
 	div.gallery:hover { color: #a2a2a2; }
+	div.gallery19 { padding-top: 100px; margin: 50px; float: left; width: 180px; }
+	div.gallery19:hover { color: #FFB612; }
 	div.gallery img { width: auto; height: 150px;}	
 	div.desc { padding: 15px; text-align: center; font-family:'Roboto'}
 	h1 { color:#0F204B; font-family:'Roboto',serif;font-size:96px; position:center; margin: 10px; padding: 10px; text-transform bold; }
 	h2 { color:#0F204B; font-family:'Roboto',serif;font-size:48px; position:relative; white-space: nowrap; margin: 10px; text-transform: bold; }
 	h3 { color:#a2a2a2; font-family:'Roboto',serif;font-size:20px; position:relative; white-space: nowrap; margin: 10px; margin-bottom: 15%; }
-	.title { white-space: nowrap; text-align: right; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #0F204B;}
-	
+	.title {  box-sizing:border-box; text-align: right; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #0F204B;}
+	.title-image { background: url(alaska_angle.png) no-repeat right; background-size: contain; height: 400px; width: 100%; position:relative; }
 	div.desc17 {
 	padding: 15px;
 	text-align: center;
-	font-family:'Caveat+Brush'
+	font-family:'Caveat Brush'
 	}
 	div.desc18 {
 	padding: 15px;
@@ -40,18 +42,18 @@
 	color:#0F204B; 
 	font-family:'Righteous'
 	}
-	div.desc19:hover {
-	color:#FFB612;
-	}
+	
 </style>
 
 <body>
+	<div class="title-image">
 	<div class="title">
 		<h1 style="margin-bottom: 0px;margin-top: 0px;">Central Directory</h1>
 		<h2 style="margin-bottom: 0px;margin-top: 0px;">All Trips 
 			<h3 style="margin-bottom: 0px;margin-top: 0px;margin-right: 12px;">Select to Continue</h3>
 		</h2>
 	</div>
+	</div> 
 	<div class="column" >
 		<div class="gallery">
 			<a target="_blank" href="">
@@ -74,7 +76,7 @@
 			<div class="desc18">Switzerland/Austria '18</div>
 		</div>
 
-		<div class="gallery">
+		<div class="gallery19">
 			<a target="_blank" href="/trip19">
 				<img src="trip19icon.png" alt="Mountains" width="400" height="400">
 			</a>
