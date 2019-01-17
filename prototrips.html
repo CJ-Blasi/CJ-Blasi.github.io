@@ -22,20 +22,15 @@
 	.title { white-space: nowrap; text-align: right; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #0F204B;}
 	
 	body {
-		margin: 0;
-		background: linear-gradient(45deg, #49a09d, #5f2c82);
+		background: linear-gradient(45deg, #8e9eab, #eef2f3);
 		font-family: sans-serif;
 		font-weight: 100;
 	}
 
-	.tablecontainer {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
+	.tablecontainer { position: relative;}
 
 	table {
+		margin: 10px;
 		width: 800px;
 		border-collapse: collapse;
 		overflow: hidden;
@@ -44,13 +39,14 @@
 
 	th,
 	td {
+		font-family:'Roboto';
 		padding: 15px;
 		background-color: rgba(255, 255, 255, 0.2);
 		color: #fff;
 	}
 
 	th {
-		text-align: left;
+		text-align: left; font-family:'Roboto';
 	}
 
 	thead {
