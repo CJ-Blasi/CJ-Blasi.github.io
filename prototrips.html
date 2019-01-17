@@ -24,28 +24,24 @@
 	.th { font-family: Roboto; }
 	.table_container {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
 
-	table {
+	.table {
 		width: 800px;
 		border-collapse: collapse;
 		overflow: hidden;
 		box-shadow: 0 0 20px rgba(0,0,0,0.1);
 	}
 
-	th,td { padding: 15px;background-color: rgba(255,255,255,0.2);color: #fff;}
-	th {text-align: left;}
+	.th,td { padding: 15px;background-color: rgba(255,255,255,0.2);color: #fff;}
+	.th {text-align: left;}
 
-	thead {
+	.thead {
 		th {
 			background-color: #55608f;
 		}
 	}
 
-	tbody {
-		tr {
-			&:hover {
-				background-color: rgba(255,255,255,0.3);
-			}
-		}
+	.tbody {
+		tr {&:hover {background-color: rgba(255,255,255,0.3);}}
 		td {
 			position: relative;
 			&:hover {
@@ -61,7 +57,7 @@
 				}
 			}
 		}
-}
+	}
 	
 </style>
 <body>
