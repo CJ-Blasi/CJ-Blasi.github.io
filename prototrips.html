@@ -17,12 +17,14 @@
 <style>
 	h1 { font-family:'Righteous',serif;font-size:96px; position:center; margin: 10px; }
 	h2 { font-family:'Righteous',serif;font-size:48px; position:relative; white-space: nowrap; margin: 10px; }
-	h3 { color:#a2a2a2; font-family:'Righteous',serif;font-size:20px; position:relative; white-space: nowrap; margin: 10px; }
+	h3 { color:#fff; font-family:'Righteous',serif;font-size:20px; position:relative; white-space: nowrap; margin: 10px; }
 	.title-image { background: url(prototripicon.png) no-repeat right; background-size: contain; height: 400px; width: 1505px; position:relative; }
 	.title { white-space: nowrap; text-align: right; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #0F204B;}
 	
 	body {
-		background: linear-gradient(45deg, #8e9eab, #eef2f3);
+		background: #0f2027; /* fallback for old browsers */
+		background: -webkit-linear-gradient(45deg, #0f2027, #203a43, #2c5364); /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(45deg, #0f2027, #203a43, #2c5364); /* IE 10+/Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 		font-family: sans-serif;
 		font-weight: 100;
 	}
