@@ -57,14 +57,14 @@
 
 	tbody {
 		tr {
-			&:hover {
+			tr:hover {
 				background-color: rgba(255, 255, 255, 0.3);
 			}
 		}
 		td {
 			position: relative;
-			&:hover {
-				&:before {
+			td:hover {
+				td:before {
 					content: "";
 					position: absolute;
 					left: 0;
@@ -77,9 +77,8 @@
 			}
 		}
 	}
-	.label {
-		color:#fff;
-	}
+	.label { color:#fff;}
+	.subtext {font-family: Roboto; left: 0%;}
 
 	
 </style>
