@@ -242,20 +242,6 @@ video {
   left:0;
   top:0
  }
- .syllabus-image-1 {
-  width:100%;
-  position:relative;
-  margin:0
- }
- .syllabus-image-2 {
-  display:none
- }
- .syllabus-container {
-  padding:100px 0
- }
- .syllabus-container .right {
-  margin:0
- }
  .notebook {
   margin:0
  }
