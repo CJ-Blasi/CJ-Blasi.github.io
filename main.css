@@ -39,6 +39,7 @@ td {
 	padding: 15px;
 	background-color: rgba(255, 255, 255, 0.2);
 	color: #fff;
+	font-weight: 500;
 }
 
 th {
@@ -81,7 +82,7 @@ thead {
  padding-right:30px;
  padding-left:200px;
  box-sizing:border-box;
- margin-bottom: 70px;
+ margin-bottom: 50px;
 }
 .column .left p {
  font-family:"Roboto";
@@ -96,7 +97,7 @@ thead {
  padding-bottom: 40px;
  float: right;
  text-align: left;
- margin-bottom: 70px;
+ margin-bottom: 50px;
 }
 .page-title {
  padding: 10;
