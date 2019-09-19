@@ -28,7 +28,23 @@
 		font-family: sans-serif;
 		font-weight: 100;
 	}
+	* {
+	box-sizing: border-box;
+	}
 
+	/* Create three equal columns that floats next to each other */
+	.column {
+		float: left;
+		width: 33.33%;
+		padding: 10px;
+	}
+
+	/* Clear floats after the columns */
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
 	
 </style>
 <body>
@@ -58,11 +74,21 @@
 						</li>
 					</ul>
 			</div>
-		</div>	
-		
-		<div class="right">
-		</div>	
-		
-	</div>		
+		</div>		
+	</div>
+	<div class="row">
+	  <div class="column" style="background-color: rgba(25, 25, 25, .3);">
+		<h1 style="font-size:20px;">Asia Tour</h1>
+		<p>Some text..</p>
+	  </div>
+	  <div class="column" style="background-color: rgba(25, 25, 25, .3);">
+		<h1 style="font-size:20px;">Peru!</h1>
+		<p>Some text..</p>
+	  </div>
+	  <div class="column" style="background-color: rgba(25, 25, 25, .3);">
+		<h1 style="font-size:20px;">The Balkans</h1>
+		<p>Some text..</p>
+	  </div>
+	</div>
 </body>
 </html>
