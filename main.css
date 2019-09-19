@@ -113,9 +113,9 @@ thead {
  color: #FFB612;
 }
 .label {
- color:#0F204B;
- font-size:1.75em;
- text-transform:uppercase;
+ color:#f3e367;
+ font-size:1.75;
+ /* text-transform:uppercase; */
  font-family:"Righteous";
 }
 #homepage a:hover,#homepage h3 a:hover,#homepage h4 a:hover {
