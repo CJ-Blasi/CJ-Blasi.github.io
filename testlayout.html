@@ -12,6 +12,7 @@
 	<meta property="og:type" content="Website">
 	<meta property="og:url" content="https://cj-blasi.github.io/">
 	<meta property="og:description" content="Webpage for Trip 2020">
+	
 </head>
 <style>
 	div.gallery { margin: 50px; float: left; width: 180px; }
@@ -33,42 +34,34 @@
 	.inline-block-center {text-align: center; margin-left: 10%; margin-right: auto;}
 	
 	.inline-block-center div {text-align: center;}
+	* { box-sizing: border-box;}
+
+/* Create three unequal columns that floats next to each other */
+
+	.column {float: left; padding: 10px;}
+
+	.left, .right {width: 25%;}
+
+	.middle {width: 50%;}
+
+	/* Clear floats after the columns */
+	.row:after {content: "";display: table;clear: both;}
 </style>
 
 <body>
-	<div class="title-image">
-		<div class="title">
-			<h1>Central Directory</h1>
-			<h2>All Trips 
-				<h3>Select to Continue</h3>
-			</h2>
+
+	<div class="row">
+			<div class="column left" style="background-color:#ccc;">
+			<h2>Column 1</h2>
+			<p>Some text..</p>
 		</div>
-	</div> 
-	<div class="inline-block-center" >
-		<div class="gallery">
-			<a target="_blank" href="/testlayout"> <img src="prototripicon.png" alt="Basic Earth Icon"> </a>
-			<div class="desc" style="font-family:'Roboto'">Proto-Trips</div>
-			<div class="extra" style="font-family:'Roboto'">Public Page</div>
+			<div class="column middle" style="background-color:#fff;">
+			<h2>Column 2</h2>
+			<p>Some text..</p>
 		</div>
-		<div class="gallery">
-			<a target="_blank" href=""> <img src="trip17icon.png" alt="Iceland Icon"> </a>
-			<div class="desc" style="font-family:'Caveat Brush'" >Iceland '17</div>
-			<div class="extra" style="font-family:'Caveat Brush'">Private Archive</div>
-		</div>
-		<div class="gallery">
-			<a target="_blank" href="https://drive.google.com/open?id=1LAaVNIa6dcQIwj4FHXBpv6fWZE9MqgwD"> <img src="trip18icon.png" alt="Swiss/Austria Icon"> </a>
-			<div class="desc"style="font-family:'Viga'">Switzerland/Austria '18</div>
-			<div class="extra" style="font-family:'Viga'">Private Archive</div>
-		</div>
-		<div class="gallery">
-			<a target="_blank" href="/trip19"> <img src="trip19icon.png" alt="Alaska Icon"> </a>
-			<div class="desc" style="font-family:'Righteous'; margin-top: 45px;">Alaska '19</div>
-			<div class="extra" style="font-family:'Righteous'">Public Page</div>
-		</div>
-		<div class="gallery">
-			<a target="_blank" href="/trip2020"> <img src="asia.png" alt="Trip 2020"> </a>
-			<div class="desc" style="font-family:'Roboto'">Coming: Spring 2020AD div>
-			<div class="extra" style="font-family:'Roboto'">Public Page</div>
+		<div class="column right" style="background-color:#ccc;">
+				<h2>Ad Column</h2>
+				<p>Some text..</p>
 		</div>
 	</div>
 </body>
